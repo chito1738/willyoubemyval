@@ -75,8 +75,9 @@
         .shy-text {
             display: block;
             margin-top: 15px;
-            font-size: 0.8rem;
+            font-size: 0.9rem;
             color: #880e4f;
+            font-weight: 600;
             font-style: italic;
         }
     </style>
@@ -94,7 +95,7 @@
             <button id="yesBtn">Yes!</button>
             <button id="noBtn">No</button>
         </div>
-        <span id="shyText" class="shy-text">"No" seems a bit shy...</span>
+        <span id="shyText" class="shy-text">"No" means no Food!!...</span>
     </div>
 
     <script>
@@ -125,11 +126,4 @@
 
         yesBtn.addEventListener('click', () => {
             question.innerHTML = "YAY! Love you, my fatso! 🌹✨";
-            mainGif.src = "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXA3eGt6Z3RyejV2bW9mc3JpbmJqamMwbWJ4Y3h6bGJ6eXBueDRzbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TdfyKrN7HGTIY/giphy.gif";
-            noBtn.style.display = 'none';
-            shyText.style.display = 'none';
-            document.body.style.backgroundColor = "#f06292";
-        });
-    </script>
-</body>
-</html>
+            mainGif.src = "
